@@ -1,5 +1,4 @@
 /* Portfolio site CSS */
-/* https://www.w3schools.com/Css/css_rwd_grid.asp */
 
 * {
     box-sizing: border-box;
@@ -31,6 +30,10 @@ hr {
   border: none;
   height: 5px;
 }
+
+/* The following column setup is from W3 Schools */
+/* Date: 5/14/18 */
+/* URL: https://www.w3schools.com/Css/css_rwd_grid.asp */
 
 .menu {
     width: 25%;
@@ -81,8 +84,9 @@ hr {
   text-align: center;
 }
 
-
-/* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#3029434 */
+/* The following max-width and max-height tip is from a note on Stack Overflow */
+/* Date: 5/14/18 */
+/* URL: https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#3029434 */
 img {
   max-width:100%;
   max-height:100%;
