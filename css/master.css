@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-.header, header {
+header {
   width: 100%;
   float: left;
   height: 125px;
@@ -26,7 +26,7 @@ span {
 }
 
 hr {
-  color: #7d97ad;
+  background-color: #7d97ad;
   border: none;
   height: 5px;
 }
@@ -76,11 +76,11 @@ hr {
     display: table;
 }
 
-.textr {
+.text-right {
   text-align: right;
 }
 
-.textc {
+.text-center {
   text-align: center;
 }
 
