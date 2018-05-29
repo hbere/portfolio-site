@@ -18,6 +18,11 @@ header {
   height: auto;
 }
 
+.subtle {
+  color: gray;
+  font-size: .9em;
+}
+
 h2 {
   color: #7d97ad;
   margin-bottom: 0;
