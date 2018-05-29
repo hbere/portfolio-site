@@ -28,7 +28,7 @@ span {
 hr {
   background-color: #7d97ad;
   border: none;
-  margin: 5px;
+  margin: 10px;
   height: 2px;
 }
 
@@ -101,7 +101,7 @@ hr {
   display: table;
 }
 
-.text-right {
+.header-text {
   text-align: right;
 }
 
@@ -114,7 +114,10 @@ hr {
 /* URL: https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#3029434 */
 img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: auto;
+}
+
+.portfolio-tile {
   border: 1px lightgray dotted;
 }
 
@@ -138,11 +141,11 @@ a {
   body {
     width: 100%;
   }
-  .col-3,
+  /* .col-3,
   .col-9 {
     width: 100%;
-  }
-  .col-4 {
+  } */
+  .col-4, .col-8 {
     width: 100%;
   }
   .header,
@@ -150,7 +153,11 @@ a {
     max-height: 400px;
   }
   img {
-    height: 200px;
+    height: 160px;
     width: auto;
+  }
+  h1, p, .header-text {
+    text-align: center;
+    margin: 0px;
   }
 }
