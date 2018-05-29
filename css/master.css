@@ -155,6 +155,9 @@ a {
   header {
     max-height: 400px;
   }
+  .portfolioSiteIcon {
+    max-height: 80px;
+  }
   .portfolio-tile {
     height: 160px;
     width: auto;
