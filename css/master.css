@@ -116,7 +116,8 @@ hr {
 /* URL: https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#3029434 */
 img {
   max-width: 100%;
-  max-height: auto;
+  max-height: 100%;
+  height: auto;
 }
 
 .portfolio-tile {
@@ -154,7 +155,7 @@ a {
   header {
     max-height: 400px;
   }
-  img {
+  .portfolio-tile {
     height: 160px;
     width: auto;
   }
