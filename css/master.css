@@ -111,6 +111,10 @@ hr {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 /* The following max-width and max-height tip is from a note on Stack Overflow */
 /* Date: 5/14/18 */
 /* URL: https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container#3029434 */
@@ -121,7 +125,12 @@ img {
 }
 
 .portfolio-tile {
-  border: 1px lightgray dotted;
+  border: 1px lightgray;
+}
+
+.portfolio-tile:hover {
+  border: 1px lightgray solid;
+  background-color: lightblue;
 }
 
 a {

@@ -33,3 +33,9 @@ inc/
 /MANIFEST.bak
 /pm_to_blib
 /*.zip
+
+# Images
+# Source: https://brand.linkedin.com/visual-identity/logo
+# Date: 5/29/18
+Logo-2C-21px-R.png
+Logo-2C-14px.png
