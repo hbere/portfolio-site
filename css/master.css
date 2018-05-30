@@ -20,7 +20,7 @@ header {
 
 .subtle {
   color: gray;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 h2 {
@@ -143,6 +143,14 @@ a {
   max-height: 100%;
 }
 
+/* Catch-all to avoid display issues */
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   body {
@@ -162,7 +170,8 @@ a {
   .col-9 {
     width: 100%;
   } */
-  .col-4, .col-8 {
+  .col-4,
+  .col-8 {
     width: 100%;
   }
   .header,
@@ -176,7 +185,10 @@ a {
     height: 160px;
     width: auto;
   }
-  h1, p, h3, .header-text {
+  h1,
+  p,
+  h3,
+  .header-text {
     text-align: center;
     margin: 0px;
   }
