@@ -37,6 +37,12 @@ hr {
   border: none;
   margin: 0px 10px;
   height: 2px;
+  width: 100%;
+}
+
+.subtitle-left {
+  margin: 0px 10px;
+  text-align: left;
 }
 
 /* The following column setup is from W3 Schools */
@@ -186,7 +192,7 @@ video {
     width: auto;
   }
   h1,
-  p,
+  .subtitle-top,
   h3,
   .header-text {
     text-align: center;
