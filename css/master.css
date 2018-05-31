@@ -3,12 +3,13 @@
 * {
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 body {
   width: 600px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -33,15 +34,16 @@ span {
 }
 
 hr {
-  background-color: #7d97ad;
-  border: none;
-  margin: 0px 10px;
-  height: 2px;
+  margin: 0px 10px 0px;
+  height: 1px;
   width: 100%;
+  border-top-color: #7d97ad;
+  border-top: dashed 1px;
 }
 
 .subtitle-left {
-  margin: 0px 10px;
+  margin: 0px 10px 12px;
+  color: #222;
   text-align: left;
 }
 
@@ -157,6 +159,11 @@ video {
   max-width: 100%;
 }
 
+.section {
+  margin: 0px 0px 5px;
+  /* padding: 0px 0px 50px; */
+}
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   body {
@@ -169,13 +176,6 @@ video {
   header {
     display: inline-block;
   }
-  body {
-    width: 100%;
-  }
-  /* .col-3,
-  .col-9 {
-    width: 100%;
-  } */
   .col-4,
   .col-8 {
     width: 100%;
@@ -186,6 +186,7 @@ video {
   }
   .portfolioSiteIcon {
     max-height: 80px;
+    display: none;
   }
   .portfolio-tile {
     height: 160px;
@@ -197,5 +198,12 @@ video {
   .header-text {
     text-align: center;
     margin: 0px;
+  }
+  hr {
+    margin: 0px 2% 0px;
+    width: 96%;
+  }
+  .subtitle-left {
+    margin: 0px 2% 0px;
   }
 }
