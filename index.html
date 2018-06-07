@@ -2,109 +2,120 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type='image/x-icon' href="./img/portfolioSiteIconV2-transparent.png">
-    <title>Hal's Portfolio Site</title>
-    <link rel="stylesheet" href="./css/master.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-  </head>
-  <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#Enter_HTML5_structural_elements -->
-  <body>
-    <header>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type='image/x-icon' href="./img/portfolioSiteIconV2-transparent.png">
+  <title>Portfolio Space</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#Enter_HTML5_structural_elements -->
+
+<body>
+  <header>
+    <div class="col-4 text-center">
+      <!-- TODO add srcset to this and other images -->
+      <!-- <img class="hinherit" src="./img/x.png" alt="Placeholder image"> -->
+      <a href="https://lottosim.website/dev/portfolio/index.html">
+        <img class="hinherit portfolioSiteIcon" src="./img/portfolioSiteIcon_rectangleV2.png" alt="H.B. Portfolio Site Icon">
+      </a>
+    </div>
+    <div class="col-8 header-text">
+      <h1>Hal B.</h1>
+      <p>Developer</p>
+      <div class="subtle subtitle-top">
+        <p>Connect with me on
+          <a href="https://github.com/jcoffeepot">GitHub</a> and
+          <a href="https://www.linkedin.com/in/hbere/">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Web & Data Projects -->
+    <div class="col-12 section">
+      <hr>
+
+      <div class="subtle subtitle-left">
+        <p>Web & Data Projects</p>
+      </div>
+
       <div class="col-4 text-center">
-        <!-- TODO add srcset to this and other images -->
-        <!-- <img class="hinherit" src="./img/x.png" alt="Placeholder image"> -->
-        <a href="https://lottosim.website/dev/portfolio/index.html">
-          <img class="hinherit portfolioSiteIcon" src="./img/portfolioSiteIcon_rectangleV2.png" alt="H.B. Portfolio Site Icon">
+        <a href="https://lottosim.website/dev/blackjack/">
+          <img class="portfolio-tile" src="./img/simpleBlackjackLogo-transparent.png" alt="Simple Blackjack web application icon">
         </a>
+        <h3>Simple Blackjack</h3>
+        <p>
+          <a href="https://lottosim.website/dev/blackjack/">lottosim/blackjack</a>
+        </p>
       </div>
-      <div class="col-8 header-text">
-        <h1>Hal B.</h1>
-        <p>Developer</p>
-        <div class="subtle subtitle-top">
-          <p>Connect with me on <a href="https://github.com/jcoffeepot">GitHub</a> and <a href="https://www.linkedin.com/in/hbere/">LinkedIn</a></p>
-        </div>
+
+      <div class="col-4 text-center">
+        <a href="https://lottosim.website/dev/artmind_html/index.html">
+          <img class="portfolio-tile" src="./img/artmind_icon.png" alt="ArtMIND web application icon">
+        </a>
+        <h3>ArtMIND</h3>
+        <p>
+          <a href="https://lottosim.website/dev/artmind_html/index.html">bit.do/artmind</a>
+        </p>
       </div>
-    </header>
 
-    <main class="main">
-      <!-- Web & Data Projects -->
-      <div class="col-12 section">
-        <hr>
-        
-        <div class="subtle subtitle-left">
-          <p>Web & Data Projects</p>
-        </div>
-        
-        <div class="col-4 text-center">
-          <a href="https://lottosim.website/dev/blackjack/"><img class="portfolio-tile" src="./img/simpleBlackjackLogo-transparent.png" alt="Simple Blackjack web application icon"></a>
-          <h3>Simple Blackjack</h3>
-          <p>
-            <a href="https://lottosim.website/dev/blackjack/">lottosim/blackjack</a>
-          </p>
-        </div>
-        
-        <div class="col-4 text-center">
-          <a href="https://lottosim.website/dev/artmind_html/index.html"><img class="portfolio-tile" src="./img/artmind_icon.png" alt="ArtMIND web application icon"></a>
-          <h3>ArtMIND</h3>
-          <p>
-            <a href="https://lottosim.website/dev/artmind_html/index.html">bit.do/artmind</a>
-          </p>
-        </div>     
+      <div class="col-4 text-center">
+        <a href="https://lottosim.website/">
+          <img class="portfolio-tile" src="./img/lottosim v2.png" alt="Lottery Simulator web application icon">
+        </a>
+        <h3>LottoSim</h3>
+        <p>
+          <a href="https://lottosim.website/">lottosim.website</a>
+        </p>
+      </div>
 
-        <div class="col-4 text-center">
-          <a href="https://lottosim.website/"><img class="portfolio-tile" src="./img/lottosim v2.png" alt="Lottery Simulator web application icon"></a>
-          <h3>LottoSim</h3>
-          <p>
-            <a href="https://lottosim.website/">lottosim.website</a>
-          </p>
-        </div>
+      <!-- <div class="col-4 text-center">
+        <a href="https://codepen.io/jcoffeepot/pen/JLrXBz">
+          <img class="portfolio-tile" src="./img/PixelArtMakerLogo_771px-transparent.png" alt="Pixel art maker icon">
+        </a>
+        <h3>Pixel Art Maker</h3>
+        <p>
+          <a href="https://codepen.io/jcoffeepot/pen/JLrXBz">codepen.io</a>
+        </p>
+      </div> -->
 
-        <div class="col-4 text-center">
-          <a href="https://codepen.io/jcoffeepot/pen/JLrXBz"><img class="portfolio-tile" src="./img/PixelArtMakerLogo_771px-transparent.png" alt="Pixel art maker icon"></a>
-          <h3>Pixel Art Maker</h3>
-          <p>
-            <a href="https://codepen.io/jcoffeepot/pen/JLrXBz">codepen.io</a>
-          </p>
-        </div>
-        
-        <div class="col-4 text-center">
-          <a href="https://github.com/jcoffeepot/Google-Apps-Scripts"><img class="portfolio-tile" src="./img/Re-D+E.png" alt="Re-D+E Google script icon"></a>
-          <h3>Re-D+E</h3>
-          <p>
-            <a href="https://github.com/jcoffeepot/Google-Apps-Scripts">github.com</a>
-          </p>
-        </div>
-        
-        <div class="col-4 text-center margin-bottom-30px">
-          <a href="https://github.com/jcoffeepot/Excel-VBA"><img class="portfolio-tile" src="./img/Excel-VBA horizontalize verticalize.png" alt="Horizonal and Vertical Arrows icon"></a>
+      <!-- <div class="col-4 text-center">
+        <a href="https://github.com/jcoffeepot/Google-Apps-Scripts">
+          <img class="portfolio-tile" src="./img/Re-D+E.png" alt="Re-D+E Google script icon">
+        </a>
+        <h3>Re-D+E</h3>
+        <p>
+          <a href="https://github.com/jcoffeepot/Google-Apps-Scripts">github.com</a>
+        </p>
+      </div> -->
+
+      <!-- <div class="col-4 text-center margin-bottom-30px">
+        <a href="https://github.com/jcoffeepot/Excel-VBA">
+          <img class="portfolio-tile" src="./img/Excel-VBA horizontalize verticalize.png" alt="Horizonal and Vertical Arrows icon">
+        </a>
         <h3>Horizontal/Vertical</h3>
         <p>
           <a href="https://github.com/jcoffeepot/Excel-VBA">github.com</a>
         </p>
-      </div>
+      </div> -->
     </div>
-  
+
     <!-- Writing Samples -->
     <div class="col-12 section">
       <hr>
-      
+
       <div class="subtle subtitle-left">
         <p>Writing Samples</p>
       </div>
-      
+
       <div class="col-4 text-center">
-        <a href="https://berlinhalpp.wordpress.com/"><img class="portfolio-tile" src="./img/brandenburg_gate.png" alt="Berlin blog icon"></a>
-        <h3>Berlin Blog</h3>
-        <p>
-          <a href="https://berlinhalpp.wordpress.com/">wordpress.com</a>
-        </p>
-      </div>
-      
-      <div class="col-4 text-center">
-        <a href="https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/8575/Beresford%20Draft%20MP%20v10.pdf"><img class="portfolio-tile" src="./img/masters_thesis-transparent.png" alt="Masters Thesis icon"></a>
+        <a href="https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/8575/Beresford%20Draft%20MP%20v10.pdf">
+          <img class="portfolio-tile" src="./img/masters_thesis-transparent.png" alt="Masters Thesis icon">
+        </a>
         <h3>Master's Thesis</h3>
         <p>
           <a href="https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/8575/Beresford%20Draft%20MP%20v10.pdf">duke.edu</a>
@@ -112,10 +123,22 @@
       </div>
 
       <div class="col-4 text-center">
-        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=beresford+hf"><img class="portfolio-tile" src="./img/pubmed_link_logo-transparent.png" alt="Pub Med link"></a>
+        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=beresford+hf">
+          <img class="portfolio-tile" src="./img/pubmed_link_logo-transparent.png" alt="Pub Med link">
+        </a>
         <h3>On PubMed</h3>
         <p>
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=beresford+hf">nih.gov</a>
+        </p>
+      </div>
+
+      <div class="col-4 text-center">
+        <a href="https://berlinhalpp.wordpress.com/">
+          <img class="portfolio-tile" src="./img/brandenburg_gate.png" alt="Berlin blog icon">
+        </a>
+        <h3>Berlin Blog</h3>
+        <p>
+          <a href="https://berlinhalpp.wordpress.com/">wordpress.com</a>
         </p>
       </div>
     </div>
@@ -129,37 +152,44 @@
       </div>
 
       <div class="col-4 text-center">
-        <a href="https://accesstips.blogspot.com/"><img class="portfolio-tile" src="./img/access_icon-transparent.png" alt="Access Tips blog icon"></a>
+        <a href="https://accesstips.blogspot.com/">
+          <img class="portfolio-tile" src="./img/access_icon-transparent.png" alt="Access Tips blog icon">
+        </a>
         <h3>AccessTips</h3>
         <p>
           <a href="https://accesstips.blogspot.com/">blogspot.com</a>
         </p>
       </div>
 
-      <div class="col-4 text-center">
-        <a href="https://rtipsbyhal.blogspot.com/"><img class="portfolio-tile" src="./img/r_icon2-transparent.png" alt="R Tips blog icon"></a>
-        <h3>R Tips by Hal</h3>
-        <p>
-          <a href="https://rtipsbyhal.blogspot.com/">blogspot.com</a>
-        </p>
-      </div>
-
       <div class="col-4 text-center margin-bottom-30px">
-        <a href="https://www.sastipsbyhal.com/"><img class="portfolio-tile" src="./img/sastips_icon_300px.png" alt="SAS Tips blog icon"></a>
+        <a href="https://www.sastipsbyhal.com/">
+          <img class="portfolio-tile" src="./img/sastips_icon_300px.png" alt="SAS Tips blog icon">
+        </a>
         <h3>SAS Tips</h3>
         <p>
           <a href="https://www.sastipsbyhal.com/">sastipbyhal.com</a>
         </p>
       </div>
+
+      <div class="col-4 text-center">
+        <a href="https://rtipsbyhal.blogspot.com/">
+          <img class="portfolio-tile" src="./img/r_icon2-transparent.png" alt="R Tips blog icon">
+        </a>
+        <h3>R Tips by Hal</h3>
+        <p>
+          <a href="https://rtipsbyhal.blogspot.com/">blogspot.com</a>
+        </p>
+      </div>
     </div>
 
-    </main>
-    
-    <footer>
-      
-    </footer>
-    
-    <script src="./js/master.js"></script>
+  </main>
 
-  </body>
-  </html>
+  <footer>
+
+  </footer>
+
+  <script src="./js/master.js"></script>
+
+</body>
+
+</html>
