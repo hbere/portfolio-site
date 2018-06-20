@@ -47,6 +47,12 @@ hr {
   text-align: left;
 }
 
+.subtitle-center {
+  margin: 0px 10px 12px;
+  color: #222;
+  text-align: center;
+}
+
 /* The following column setup is from W3 Schools */
 /* Date: 5/14/18 */
 /* URL: https://www.w3schools.com/Css/css_rwd_grid.asp */
