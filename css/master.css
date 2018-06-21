@@ -53,10 +53,6 @@ hr {
   text-align: center;
 }
 
-/* The following column setup is from W3 Schools */
-/* Date: 5/14/18 */
-/* URL: https://www.w3schools.com/Css/css_rwd_grid.asp */
-
 .menu {
   width: 25%;
   float: left;
@@ -65,8 +61,11 @@ hr {
 .main {
   width: 100%;
   float: left;
-  /* background-color: lightgreen; */
 }
+
+/* The following column setup is from W3 Schools */
+/* Date: 5/14/18 */
+/* URL: https://www.w3schools.com/Css/css_rwd_grid.asp */
 
 .col-1 {
   width: 8.33%;
@@ -108,13 +107,7 @@ hr {
 [class*="col-"] {
   float: left;
   padding: 15px;
-  /* border: 1px solid red; */
 }
-
-/* <div class="row">
-  <div class="col-3">...</div> <!-- 25% -->
-  <div class="col-9">...</div> <!-- 75% -->
-</div> */
 
 .row::after {
   content: "";
@@ -172,7 +165,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {
-  /* For mobile phones: */
+  /* For higher-resolution phones and tablets: */
   header {
     display: inline-block;
   }
@@ -208,7 +201,7 @@ video {
 }
 
 @media only screen and (max-width: 350px) {
-  /* For mobile phones: */
+  /* For lower-resolution phones and tablets: */
   header {
     display: inline-block;
   }
