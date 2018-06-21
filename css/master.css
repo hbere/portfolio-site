@@ -144,7 +144,8 @@ img {
 }
 
 .portfolio-tile {
-  border: 1px lightgray;
+  border: 1px lightgray solid;
+  border-radius: 25px;
 }
 
 .portfolio-tile:hover {
