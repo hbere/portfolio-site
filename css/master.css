@@ -11,12 +11,17 @@ body {
   width: 600px;
   max-width: 100%;
   margin: auto;
+  background-color: #EEE;
 }
 
 header {
   width: 100%;
   float: left;
   height: auto;
+}
+
+footer {
+  margin-bottom: 25px;
 }
 
 .strong {
@@ -143,6 +148,7 @@ img {
 .portfolio-tile {
   border: 1px lightgray solid;
   border-radius: 25px;
+  background-color: white;
 }
 
 .portfolio-tile:hover {
