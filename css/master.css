@@ -20,56 +20,23 @@ header {
   height: auto;
 }
 
+main {
+  width: 100%;
+  float: left;
+}
+
 footer {
   margin-bottom: 25px;
 }
 
-.strong {
-  font-weight: bold;
+h2 {
+  color: #222;
+  margin-bottom: 0;
 }
 
 .subtle {
   color: gray;
   font-size: 0.85em;
-}
-
-h2 {
-  color: #7d97ad;
-  margin-bottom: 0;
-}
-
-span {
-  height: inherit;
-}
-
-hr {
-  margin: 0px 10px 0px;
-  height: 1px;
-  width: 100%;
-  border-top-color: #7d97ad;
-  border-top: dashed 1px;
-}
-
-.subtitle-left {
-  margin: 0px 10px 12px;
-  color: #222;
-  text-align: left;
-}
-
-.subtitle-center {
-  margin: 0px 10px 12px;
-  color: #222;
-  text-align: center;
-}
-
-.menu {
-  width: 25%;
-  float: left;
-  background-color: lightblue;
-}
-.main {
-  width: 100%;
-  float: left;
 }
 
 /* The following column setup is from W3 Schools */
@@ -118,22 +85,12 @@ hr {
   padding: 15px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .header-text {
   text-align: center;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-left {
-  text-align: left;
 }
 
 /* The following max-width and max-height tip is from a note on Stack Overflow */
@@ -169,26 +126,15 @@ video {
   max-width: 100%;
 }
 
-.section {
-  margin: 0px 0px 5px;
-  /* padding: 0px 0px 50px; */
-}
-
 @media only screen and (max-width: 550px) {
   /* For higher-resolution phones and tablets: */
   header {
     display: inline-block;
+    max-height: 400px;
   }
   .col-4,
   .col-8 {
     width: 50%;
-  }
-  .header,
-  header {
-    max-height: 400px;
-  }
-  .portfolioSiteIcon {
-    max-height: 80px;
   }
   .portfolio-tile {
     max-height: 160px;
@@ -200,13 +146,6 @@ video {
   .header-text {
     text-align: center;
     margin: 0px;
-  }
-  hr {
-    margin: 0px 2% 0px;
-    width: 96%;
-  }
-  .subtitle-left {
-    margin: 0px 2% 0px;
   }
 }
 
@@ -214,18 +153,11 @@ video {
   /* For lower-resolution phones and tablets: */
   header {
     display: inline-block;
+    max-height: 400px;
   }
   .col-4,
   .col-8 {
     width: 100%;
-  }
-  .header,
-  header {
-    max-height: 400px;
-  }
-  .portfolioSiteIcon {
-    max-height: 80px;
-    display: none;
   }
   .portfolio-tile {
     max-height: 160px;
@@ -237,12 +169,5 @@ video {
   .header-text {
     text-align: center;
     margin: 0px;
-  }
-  hr {
-    margin: 0px 2% 0px;
-    width: 96%;
-  }
-  .subtitle-left {
-    margin: 0px 2% 0px;
   }
 }
